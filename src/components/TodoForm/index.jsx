@@ -18,6 +18,7 @@ function TodoForm(props) {
 	}
 
 	function handleOnSubmit(e) {
+		//Prevent reloading browser
 		e.preventDefault();
 		if (!onSubmit) return;
 
